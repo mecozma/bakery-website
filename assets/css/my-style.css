@@ -1,0 +1,138 @@
+/* Nox sizing */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+html {
+  font-size: 100%;
+  line-height: 1;
+  margin: 0;
+}
+
+body {
+  background-color: #dcdbd9;
+  color: white;
+  font: normal 100% , Cambria, Georgia, serif;
+}
+
+section {
+  width: 960px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 999;
+  position: fixed;
+  width: 100%;
+}
+
+div.navigation {
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation__logo {
+  font-family: "Scriptina";
+  font-size: 30px;
+  vertical-align: center;
+}
+
+nav ul {
+  display: flex;
+  color: white;
+}
+
+nav ul li a {
+  color: white;
+  font-family: "Alegreya";
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  transition: all 0.3s ease;
+}
+
+.navigation__social-media {
+  display: flex;
+}
+
+.navigation__social-media i:nth-child(2) {
+  padding: 0 10px 0 10px;
+}
+
+.navigation__social-media i:nth-child(1):hover {
+  color: #00ACEE;
+  transition: all 0.3s ease;
+}
+
+.navigation__social-media i:nth-child(2):hover {
+  color: #3B5998;
+  transition: all 0.3s ease;
+}
+
+.navigation__social-media i:nth-child(3):hover {
+  background-color: white;
+  color: #E52325;
+  transition: all 0.3s ease;
+}
+
+.divider {
+  padding: 0 10px 0 10px;
+}
+
+.landing-section {
+  background-image: url('../images/hero.jpg');
+  height: 100vh;
+  
+}
+
+.landing-section section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image:
+    radial-gradient(
+      circle closest-side,
+      rgba(0,0,0,.7),
+      rgba(0,0,0,0)
+    );
+}
+
+.landing-section section h1 {
+  font-size: 92px;
+}
+
+.landing-section__shape {
+  border-top: 2px solid white;
+  width: 200px;
+  margin: 60px 0 90px 0;
+}
+
+.landing-section section h3 {
+  font-size: 24px;
+  margin-bottom: 70px;
+}
+
+.landing-section section button {
+  width: 200px;
+  height: 45px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-weight: bolder;
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-family: "Alegreya";
+  border: none;
+}
