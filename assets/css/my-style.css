@@ -45,6 +45,7 @@ div.navigation {
   font-family: "Scriptina";
   font-size: 30px;
   vertical-align: center;
+  padding-bottom: 20px;
 }
 
 nav ul {
@@ -167,7 +168,8 @@ nav ul li a:hover {
   text-align: justify;
   color: #56534c;
   text-align:center;
-  margin-top: 66px;
+  margin-top: 40px;
+  /* 66px */
 }
 .art-of-cakes__left h5 {
   font: bold 24px "Alegreya";
@@ -219,11 +221,11 @@ nav ul li a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .art-of-cakes__chef-description--chef-motto div:first-child,
 .art-of-cakes__chef-description--chef-motto div:last-child {
-  padding: 20px;
   color: #56534c;
   font-size: 50px;
 }
@@ -235,9 +237,11 @@ nav ul li a:hover {
 
 .art-of-cakes__chef-description--chef-motto div:first-child {
   align-self: flex-start;
+  margin-left: 30px;
 }
 .art-of-cakes__chef-description--chef-motto div:last-child {
   align-self: flex-end;
+  margin-right: 30px;
 }
 
 .art-of-cakes section {
@@ -246,8 +250,21 @@ nav ul li a:hover {
   align-items: center;
 }
  .art-of-cakes__right {
-  padding-top: 105px;
+  /* padding-top: 105px; */
   width: 50%;
+  position: relative;
+ }
+
+ .art-of-cakes__right p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0,0,0, 0.3);
+    padding: 50px;
+    text-align: center;
+    border-radius: 100%;
+    font: bold 30px "Alegreya";
  }
 
  .art-of-cakes__right img {
