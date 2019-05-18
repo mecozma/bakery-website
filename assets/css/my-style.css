@@ -105,7 +105,7 @@ nav ul li a:hover {
   background-image:
     radial-gradient(
       circle closest-side,
-      rgba(0,0,0,.7),
+      rgba(131,124,115, 0.5),
       rgba(0,0,0,0)
     );
 }
@@ -115,7 +115,7 @@ nav ul li a:hover {
 }
 
 .landing-section__shape {
-  border-top: 2px solid white;
+  border-top: 2px solid rgb(185,180,177);
   width: 200px;
   margin: 60px 0 90px 0;
 }
@@ -128,11 +128,129 @@ nav ul li a:hover {
 .landing-section section button {
   width: 200px;
   height: 45px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0,0,0, 0.3);
   color: white;
-  font-weight: bolder;
+  font-weight: bold;
   font-size: 14px;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   font-family: "Alegreya";
   border: none;
 }
+
+.art-of-cakes {
+  background-image: url('../images/art-of-cakes-wallpaper.jpg');
+  padding: 46px 0 46px 0;
+}
+
+.art-of-cakes__left {
+  padding-top: 105px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.art-of-cakes__left h3 {
+  font: bold 48px "Alegreya";
+  color: #56534c;
+  text-align: center;
+}
+.art-of-cakes__left h4 {
+  font: bold 18px "Alegreya";
+  color: #a47d5e;
+  text-transform: capitalize;
+  text-align: center;
+}
+.art-of-cakes__left p {
+  font:  16px "Proxima Nova";
+  line-height: 1.6;
+  text-align: justify;
+  color: #56534c;
+  text-align:center;
+  margin-top: 66px;
+}
+.art-of-cakes__left h5 {
+  font: bold 24px "Alegreya";
+  text-align: justify;
+  text-transform: capitalize;
+  color: #56534c;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.art-of-cakes__chef-description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.art-of-cakes__chef-description div:first-child {
+  border-top: 2px solid #d7d5ca;
+  border-bottom: 2px solid #d7d5ca;
+  padding: 18px;
+  font:  24px "Alegreya";
+  color: #56534c;
+  text-align: center;
+}
+.art-of-cakes__chef-description div:last-child {
+  border-top: 2px solid #d7d5ca;
+  border-bottom: 2px solid #d7d5ca;
+  padding: 18px;
+  font:  24px "Alegreya";
+  color: #56534c;
+  text-align: center;
+}
+
+.art-of-cakes__chef-description__chef-image {
+  width: 100px;
+  margin: 0px 20px 0 20px;
+}
+
+.art-of-cakes__chef-description__chef-image img {
+  max-width: 100%;
+  border-radius: 100%;
+}
+
+.art-of-cakes__chef-description--chef-motto {
+  color: #a47d5e;
+  font-family: "Scriptina";
+  font-size: 24px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.art-of-cakes__chef-description--chef-motto div:first-child,
+.art-of-cakes__chef-description--chef-motto div:last-child {
+  padding: 20px;
+  color: #56534c;
+  font-size: 50px;
+}
+
+.art-of-cakes__chef-description--chef-motto div:nth-child(2) {
+  text-align: center;
+  width: 250px;
+}
+
+.art-of-cakes__chef-description--chef-motto div:first-child {
+  align-self: flex-start;
+}
+.art-of-cakes__chef-description--chef-motto div:last-child {
+  align-self: flex-end;
+}
+
+.art-of-cakes section {
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+ .art-of-cakes__right {
+  padding-top: 105px;
+  width: 50%;
+ }
+
+ .art-of-cakes__right img {
+   width: 230px;
+   padding: 5px;
+ }
