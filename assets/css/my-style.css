@@ -277,6 +277,7 @@ nav ul li a:hover {
 
 .tasty-pancakes section {
   padding-top: 140px;
+  display: flex;
 }
 
 .tasty-pancakes__rating {
@@ -285,6 +286,7 @@ nav ul li a:hover {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+  background: transparent;
 }
 
 .tasty-pancakes__rating i {
@@ -296,7 +298,102 @@ nav ul li a:hover {
   transform: rotate(90deg);
   color: #56534c;
   position: absolute;
-  top: 59%;
+  top: 66.5%;
   transform: translateY(-290%);
   left: 45%;
 }
+
+.tasty-pancakes section > div:nth-child(2) {
+  background-image: url('../images/tasty-pancakes-right-wallpaper.jpg');
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.tasty-pancakes h3 {
+  font: bold 48px "Alegreya";
+  color: #56534c;
+}
+
+.tasty-pancakes h4 {
+  font: bold 18px "Alegreya";
+  color: #a47d5e;
+  text-transform: capitalize;
+}
+
+.tasty-pancakes p {
+  font: 16px "Proxima Nova";
+  line-height: 1.6;
+  text-align: justify;
+  color: #56534c;
+  text-align: center;
+  margin-top: 40px;
+  /* 66px */
+}
+
+.tasty-pancakes__rating-right i {
+  padding: 5px;
+  color: #a47d5e;
+}
+
+.tasty-pancakes__image-gallery {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.tasty-pancakes__image-gallery i {
+  color: #a47d5e;
+  font-size: 50px;
+}
+
+.tasty-pancakes__image-gallery img {
+  width: 100px;
+  border-radius: 100%;
+}
+
+.tasty-pancakes__circle {
+ text-align: center;
+ margin-top: 20px;
+
+}
+
+.tasty-pancakes__circle  i {
+  font-size: 14px;
+  color: #a47d5e;
+  padding-left: 5px;
+}
+
+.tasty-pancakes__time {
+  width: 200px;
+  height: 200px;
+  background-image: url("../images/time-background.jpg");
+  position: absolute;
+  top: -50px;
+  right: -100px;
+}
+
+.tasty-pancakes__time > p {
+  font-size: 18px;
+  font-family: "Alegreya";
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0;
+}
+
+.tasty-pancakes__time span:first-child {
+  font-weight: bold;
+  color: #a47d5e;
+}
+
+.tasty-pancakes__time span:last-child {
+  font-weight: bold;
+  font-size: 92px;
+  color: #dfc691;
+}
+
+
+
