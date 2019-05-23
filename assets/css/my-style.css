@@ -277,6 +277,7 @@ nav ul li a:hover {
 
 .tasty-pancakes section {
   padding-top: 140px;
+  padding-bottom: 105px;
   display: flex;
 }
 
@@ -304,7 +305,7 @@ nav ul li a:hover {
 }
 
 .tasty-pancakes section > div:nth-child(2) {
-  background-image: url('../images/tasty-pancakes-right-wallpaper.jpg');
+  background-image: url("../images/tasty-pancakes-right-wallpaper.jpg");
   position: relative;
   display: flex;
   flex-direction: column;
@@ -355,12 +356,11 @@ nav ul li a:hover {
 }
 
 .tasty-pancakes__circle {
- text-align: center;
- margin-top: 20px;
-
+  text-align: center;
+  margin-top: 20px;
 }
 
-.tasty-pancakes__circle  i {
+.tasty-pancakes__circle i {
   font-size: 14px;
   color: #a47d5e;
   padding-left: 5px;
@@ -395,5 +395,73 @@ nav ul li a:hover {
   color: #dfc691;
 }
 
+.breakfast {
+  background-image: url("../images/breakfast-background.jpg");
+}
 
+.breakfast section {
+  padding: 90px 0 90px 0;
+  display: flex;
+}
 
+.breakfast section div:nth-child(1) {
+  text-align: center;
+  font-family: "Alegreya";
+}
+
+.breakfast section div:nth-child(1) h3 {
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.breakfast section div:nth-child(1) h4 {
+  font-weight: bold;
+  font-size: 18px;
+  color: #c8a593;
+  padding-bottom: 30px;
+}
+
+.breakfast__item {
+  margin-top: 30px;
+}
+
+.breakfast__item h5 {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.breakfast__item p {
+  font-size: 16px;
+  font-family: "Proxima Nova";
+  color: #d7d5ca;
+}
+
+.breakfast__item p:last-child {
+  font-weight: regular;
+  font-size: 36px;
+  font-family: "Alegreya";
+  color: #dfc691;
+}
+
+.breakfast__shape {
+  background-image: url('../images/breakfast-rightside-background.jpg');
+}
+
+.breakfast__shape p {
+  font-weight: bold;
+  font-size: 14px;
+  font-family: "Alegreya";
+  color: #56534c;
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.breakfast section div:nth-child(2) .breakfast__shape  h4 {
+  font-weight: bold;
+  font-size: 44px;
+  text-align: center;
+}
+
+.breakfast__shape {
+  border: 1px dashed black;
+}
