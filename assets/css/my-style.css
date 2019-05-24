@@ -397,6 +397,8 @@ nav ul li a:hover {
 
 .breakfast {
   background-image: url("../images/breakfast-background.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
 .breakfast section {
@@ -404,9 +406,12 @@ nav ul li a:hover {
   display: flex;
 }
 
-.breakfast section div:nth-child(1) {
+.breakfast section > div:nth-child(1) {
+ 
   text-align: center;
   font-family: "Alegreya";
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .breakfast section div:nth-child(1) h3 {
@@ -443,8 +448,25 @@ nav ul li a:hover {
   color: #dfc691;
 }
 
+.breakfast section > div:nth-child(2) {
+  
+  background-color: #f3f1e9;
+  width: 500px;
+  padding: 10px;
+  position: relative;
+  z-index: 1;
+}
+
 .breakfast__shape {
-  background-image: url('../images/breakfast-rightside-background.jpg');
+  background-image: url("../images/breakfast-rightside-background.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border: 1px dashed #56534c;
+  z-index: 100;
 }
 
 .breakfast__shape p {
@@ -454,14 +476,69 @@ nav ul li a:hover {
   color: #56534c;
   justify-content: space-evenly;
   display: flex;
-}
-
-.breakfast section div:nth-child(2) .breakfast__shape  h4 {
-  font-weight: bold;
-  font-size: 44px;
+  line-height: 1.5;
   text-align: center;
 }
 
-.breakfast__shape {
-  border: 1px dashed black;
+.breakfast section div:nth-child(2) .breakfast__shape h4 {
+  font-weight: bold;
+  font-size: 44px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 45px;
+}
+
+.breakfast__shape button {
+  margin: 50px auto;
+  width: 200px;
+  height: 45px;
+  background-color: transparent;
+  color: #56534c;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 3px;
+  font-family: "Alegreya";
+  border: 1px solid #d7d5ca;
+  text-transform: uppercase;
+}
+
+.breakfast__shape-one {
+  height: 90%;
+  width: 50px;
+  background-color: #d7d5ca;
+  position: absolute;
+  top: 5%;
+  right: -1.5%;
+  z-index: -1;
+}
+
+.breakfast__shape-one > div {
+  width: 60%;
+  height: 95%;
+  border: 1px dashed #56534c;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.breakfast__shape-two {
+  height: 80%;
+  width: 50px;
+  background-color: #c3c0b4;
+  position: absolute;
+  top: 10%;
+  right: -6%;
+  z-index: -5;
+
+}
+
+.breakfast__shape-two > div {
+  width: 60%;
+  height: 95%;
+  border: 1px dashed #56534c;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
