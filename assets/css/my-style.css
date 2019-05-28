@@ -408,7 +408,6 @@ nav ul li a:hover {
 }
 
 .breakfast section > div:nth-child(1) {
- 
   text-align: center;
   font-family: "Alegreya";
   padding-left: 50px;
@@ -450,7 +449,6 @@ nav ul li a:hover {
 }
 
 .breakfast section > div:nth-child(2) {
-  
   background-color: #f3f1e9;
   width: 500px;
   padding: 10px;
@@ -542,7 +540,6 @@ nav ul li a:hover {
   top: 25%;
   left: 950px;
   z-index: 1;
-
 }
 
 .breakfast__shape-two > div {
@@ -553,4 +550,161 @@ nav ul li a:hover {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.sandwich {
+  background-image: url("../images/sandwich-section-background.jpg");
+}
+
+.sandwich section {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  position: relative;
+}
+
+.sandwich section div:first-child h3 {
+  font: bold 48px "Alegreya";
+  color: #56534c;
+  text-align: center;
+}
+
+.sandwich section div:first-child h4 {
+  font: bold 14px "Alegreya";
+  text-align: center;
+  color: #a47d5e;
+}
+
+.sandwich section div:nth-child(2) {
+  display: flex;
+  align-items: center;
+}
+
+.sandwich section div:nth-child(2) div:nth-child(1) .sandwich__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+}
+
+.sandwich section div:nth-child(2) div:nth-child(1) .sandwich__item img {
+  border-radius: 50%;
+  max-width: 100%;
+}
+
+.sandwich section div:nth-child(2) div:nth-child(1) .sandwich__item h5 {
+  font: bold 30px "Alegreya";
+  color: #a47d5e;
+  text-align: center;
+}
+
+.sandwich section > div:nth-child(2) > div:nth-child(1) > .sandwich__item > p {
+  font-size: 14px;
+  font-family: "Proxima Nova";
+  text-align: center;
+  color: #56534c;
+  line-height: 1.5;
+}
+
+.sandwich section > div:nth-child(2) > div:nth-child(2) > img {
+  border: 10px solid white;
+}
+
+.sandwich-image {
+  position: absolute;
+  right: -150px;
+}
+
+.sandwich-image button {
+  color: #dfc691;
+  background-color: white;
+  font: bold 18px "Alegreya";
+  text-align: center;
+  width: 200px;
+  height: 45px;
+  border: 1px dashed #56534c;
+  position: absolute;
+  top: 95%;
+  left: -20px;
+}
+
+.sandwich-image > div {
+  display: flex;
+  flex-direction: column;
+  margin-left: -210px;
+  margin-bottom: -25px;
+}
+
+.sandwich-image div div {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.sandwich-image div div:first-child {
+  margin-bottom: 2px;
+}
+
+.sandwich-image div div:last-child {
+  background-image: url("../images/sandwich-ready-bg.jpg");
+}
+
+.sandwich-image div div p {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.sandwich-image div div p,
+.sandwich-image div div p span:first-child {
+  font: bold 18px "Alegreya";
+  color: #a47d5e;
+}
+
+.sandwich-image div div p span:nth-child(2) {
+  font: bold 60px "Alegreya";
+  color: #56534c;
+}
+
+footer {
+  background-color: #f3f1e9;
+  color: #56534c;
+  font-size: 14px;
+  font-family: "Alegreya";
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 50px;
+}
+
+footer >div:first-child ul {
+  margin-left: 150px;
+}
+
+footer > div:last-child ul {
+  margin-right: 150px;
+}
+
+footer >div:first-child ul,
+footer > div:last-child ul {
+  display: flex;
+  padding: 0 20px 0 20px;;
+  border-top: 1px solid #56534c;
+  border-bottom: 1px solid #56534c;
+}
+
+footer > div > ul > li {
+  padding: 20px;
+}
+
+footer > div > ul > li > span {
+  margin-left: 40px;
+}
+
+footer > div:nth-child(2) {
+  font-family: "Scriptina";
+  font-size: 30px;
+  vertical-align: center;
 }
