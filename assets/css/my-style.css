@@ -404,6 +404,7 @@ nav ul li a:hover {
 .breakfast section {
   padding: 90px 0 90px 0;
   display: flex;
+  position: relative;
 }
 
 .breakfast section > div:nth-child(1) {
@@ -454,7 +455,7 @@ nav ul li a:hover {
   width: 500px;
   padding: 10px;
   position: relative;
-  z-index: 1;
+  z-index: 999;
 }
 
 .breakfast__shape {
@@ -469,7 +470,7 @@ nav ul li a:hover {
   z-index: 100;
 }
 
-.breakfast__shape p {
+.breakfast__shape p:first-child {
   font-weight: bold;
   font-size: 14px;
   font-family: "Alegreya";
@@ -478,6 +479,17 @@ nav ul li a:hover {
   display: flex;
   line-height: 1.5;
   text-align: center;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+}
+
+.breakfast__shape p {
+  font-weight: bold;
+  font-size: 14px;
+  font-family: "Proxima Nova";
+  text-align: center;
+  color: #56534c;
+  line-height: 1.5;
 }
 
 .breakfast section div:nth-child(2) .breakfast__shape h4 {
@@ -503,13 +515,13 @@ nav ul li a:hover {
 }
 
 .breakfast__shape-one {
-  height: 90%;
+  height: 60%;
   width: 50px;
   background-color: #d7d5ca;
   position: absolute;
-  top: 5%;
-  right: -1.5%;
-  z-index: -1;
+  left: 930px;
+  top: 20%;
+  z-index: 2;
 }
 
 .breakfast__shape-one > div {
@@ -523,13 +535,13 @@ nav ul li a:hover {
 }
 
 .breakfast__shape-two {
-  height: 80%;
+  height: 50%;
   width: 50px;
   background-color: #c3c0b4;
   position: absolute;
-  top: 10%;
-  right: -6%;
-  z-index: -5;
+  top: 25%;
+  left: 950px;
+  z-index: 1;
 
 }
 
